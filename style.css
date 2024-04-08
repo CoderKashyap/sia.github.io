@@ -59,7 +59,7 @@
     top: 65%;
     left: 2rem;
     transform: translateY(-50%);
-    font: 400 0.85rem helvetica,sans-serif;
+    font: 400 0.85rem Quando;
     color: white;
     background:  rgba(0, 0, 0, 0.289);
     border-radius: 5px;
@@ -69,13 +69,13 @@
     display: none;
   
     & .title {
-      font-family: 'arial-black';
+      font-family: 'Quando';
       text-transform: uppercase;
     }
   
     & .description {
       line-height: 1.7;
-      margin: 1rem 0 1.5rem;
+      margin: 1rem 0 0.5rem;
       font-size: 0.8rem;
     }
   
@@ -108,7 +108,7 @@
   
   .nav {
     position: absolute;
-    bottom: 2rem;
+    bottom: 4rem;
     left: 50%;
     transform: translateX(-50%);
     z-index: 5;
@@ -150,7 +150,7 @@
   
   @media (width < 650px) {
     .content {
-      & .title        { font-size: 1.2rem; }
+      & .title        { font-size: 1rem; }
       & .description  { font-size: 0.9rem; }
       & button        { font-size: 0.7rem; }
     }
